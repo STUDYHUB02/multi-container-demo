@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/STUDYHUB02/multi-container-app.git'
+                git branch: 'main', url: 'https://github.com/STUDYHUB02/multi-container-demo.git'
             }
         }
 
